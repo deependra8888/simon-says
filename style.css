@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fugaz One", sans-serif;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #393843;
+}
+
+.header {
+    width: 250px;
+    padding: 20px;
+    background-color: #393843;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container button:active {
+    transform: translateY(8px);
+}
+
+.green {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 130px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #3ecb74;
+    border-top-left-radius: 200px;
+    left: -130px;
+}
+
+.red {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 130px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #f52e16;
+    border-top-right-radius: 200px;
+    left: 0px;
+}
+
+.blue {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #38a0eb;
+    border-bottom-right-radius: 200px;
+    top: 260px;
+    left: 0px;
+}
+
+.yellow {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ece02e;
+    border-bottom-left-radius: 200px;
+    top: 260px;
+    left: -130px;
+}
+
+.score-container {
+    z-index: 5;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #393843;
+    top: 230px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-container p {
+    font-size: 25px;
+}
+
+.start-button {
+    position: absolute;
+    top: 450px;
+    background-color: #df8f27;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.start-button:hover {
+    box-shadow: 0px 0px 20px 5px #FFAE45;
+    background-color: #FFAE45;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.green-glow {
+    box-shadow: 0px 0px 20px 10px #5dff9b;
+    background-color: #5dff9b;
+}
+
+.red-glow {
+    box-shadow: 0px 0px 20px 10px #ff412c;
+    background-color: #ff412c;
+}
+
+.blue-glow {
+    box-shadow: 0px 0px 20px 10px #51b6ff;
+    background-color: #51b6ff;
+}
+
+.yellow-glow {
+    box-shadow: 0px 0px 20px 10px #fff45c;
+    background-color: #fff45c;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.clicked {
+    border: 3px solid white ;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: fixed;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #FFAE45;
+    border-radius: 3px;
+    width: 230px;
+    text-align: center;
+    height: 50px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transition: 0.5s;
+    top: 10px;
+}
+
+
