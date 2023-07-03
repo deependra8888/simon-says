@@ -1,6 +1,6 @@
 # Simon Game
 
-Site Link: https://lambent-medovik-b01899.netlify.app/
+Site Link: https://simon-vs-player-game.netlify.app/
 
 An implementation of simon game using HTML, CSS, JS.
 ![Screenshot 2022-09-10 132522](https://user-images.githubusercontent.com/92965519/189474564-051ee120-a20c-46a4-9664-8dba00ec9757.png)
